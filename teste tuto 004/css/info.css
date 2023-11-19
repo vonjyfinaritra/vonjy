@@ -1,0 +1,33 @@
+
+
+
+.introduction-header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.introduction-right {
+    text-align: center;
+}
+
+.introduction-right p {
+    font-size: 0.8rem;
+}
+
+
+.tout-compte {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5rem;
+}
+
+.compte {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.compte img {
+    border-radius: 50%;
+    width: 2rem;
+}
